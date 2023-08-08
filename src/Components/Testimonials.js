@@ -35,7 +35,7 @@ export default function Testimonials() {
 
   return (
     <div className="testimonials">
-      <h2 className="txt-sectionTitle testimonials-title">Testimonials</h2>
+      <h2 className="txt-subtitle testimonials-title">Testimonials</h2>
       <>
         {testimonials.map((testimonial)=>(<TestimonialCard key={testimonial.id} testimonial={testimonial}/> ))}
       </>

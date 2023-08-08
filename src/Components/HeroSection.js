@@ -8,7 +8,7 @@ export default function HeroSection() {
             <div className="banner-text">
                 <h1 className="txt-title clr-Primary2">Little Lemon</h1>
                 <h2 className="txt-subtitle">Chicago</h2>
-                <p className="txt-lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse consequatur nisi nobis!</p>
+                <p className="txt-lead">We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
                 <Link to="/booking">
                     <button className="btnPrimary">Reserve a table</button>
                 </Link>

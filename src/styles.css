@@ -134,12 +134,12 @@ img {
 
 header {
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin: auto 10%;
 }
 .logo {
   max-height: 4rem;
-  margin: auto;
+  margin: auto 2rem;
 }
 
 /* button styles */
@@ -203,9 +203,8 @@ nav ul {
 }
 
 .navbar {
-  position: sticky;
-  top: 0;
   overflow: hidden;
+  margin-left: auto;
 }
 .navbar li {
   display: inline-block;
@@ -253,7 +252,7 @@ nav ul {
 .hero {
   margin: 1rem auto 4rem auto;
   display: flex;
-  padding: 1rem;
+  padding: 1rem 10rem;
   align-items: center;
   justify-content: center;
 }
@@ -267,10 +266,14 @@ nav ul {
 /* Featured dishes & style cards*/
 .specials {
   padding: 1rem;
+  justify-content: center;
 
   display: grid;
   grid-template-areas:
   "card card card";
+}
+.specialsHeader{
+  margin: 1rem 10%;
 }
 .specialsHeader>button {
  margin-left:auto;
@@ -306,8 +309,10 @@ nav ul {
 
 /* About section */
 .about {
-  padding-bottom: 10rem;
+  padding-bottom: 8rem;
+  padding-left: 10rem;
 }
+
 .about h1{
   margin-top: 2rem;
 }
@@ -317,13 +322,13 @@ nav ul {
 .lowerImg {
   position: relative;
   height: max(15rem);
-  left: -2rem;
+  left: 8rem;
   bottom: -5rem;
 }
 .upperImg {
   position: relative;
   height: max(15rem);
-  left: -10rem;
+  left: -8rem;
   bottom: 5rem;
 }
 .aboutImgs {
@@ -334,12 +339,14 @@ nav ul {
 /* Testimonial section*/
 .testimonials {
   padding: 1rem;
+  margin: 1rem 10%;
 
   display: grid;
   grid-template-areas: 
   "head head head head"
   "card1 card2 card3 card4";
 }
+/* Testimonial Card */
 .testimonials-title {
   grid-area: head;
   color: var(--clr-primary1);
@@ -388,7 +395,10 @@ nav ul {
 /* Footer styles */
 footer {
   align-items: center;
+  justify-content: center;
   color: var(--clr-primary1, #495E57 );
+  display: flex;
+  margin: 1rem 10%;
 }
 
 .siteMap {
@@ -541,13 +551,4 @@ textarea {
   border-radius: var(--rounded);
 
   padding:1rem;
-}
-
-/* Main section styles */
-footer {
-  display: flex;
-  flex-wrap: nowrap;
-}
-footer div {
-  flex: 1;
 }

@@ -12,22 +12,22 @@ export default function Specials() {
       id:1,
       title: "Greek Salad",
       image: dish1,
-      price: 12.99,
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum molestiae quae provident id!",
+      price: "12.99",
+      description: "The famous greek salad of crispy lettuce, peppers, olives, and our Chicago style feta cheese, garnished with cruncy garlic and rosemary croutons.",
     },
     {
       id:2,
       title: "Bruschetta",
       image: dish2 ,
-      price: 5.99,
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum molestiae quae provident id!",
+      price: "5.99",
+      description: "Our bruschetta is made from grilled bread that has been speared with garlic and seasoned with salt and olive oil.",
     },
     {
       id:3,
       title: "Lemon Dessert",
       image: dish3 ,
-      price: 5.50,
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum molestiae quae provident id!",
+      price: "5.00",
+      description: "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
     },
   ]
 
@@ -35,7 +35,7 @@ export default function Specials() {
   return (
     <>
       <div className="banner specialsHeader">
-              <h2 className="txt-sectionTitle clr-Primary1">This week's specials!</h2>
+              <h2 className="txt-subtitle clr-Primary1">This week's specials!</h2>
               <button className="btnPrimary">Order Online</button>
           </div>
       <div className="specials">
